@@ -1,0 +1,19 @@
+{
+  "name": "puddle-interfaces",
+  "version": "1.0.0",
+  "description": "Interfaces for the Puddle system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevormanley/puddle-interfaces.git"
+  },
+  "author": "Trevor Manley <trevor@manley.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/trevormanley/puddle-interfaces/issues"
+  },
+  "homepage": "https://github.com/trevormanley/puddle-interfaces#readme"
+}
