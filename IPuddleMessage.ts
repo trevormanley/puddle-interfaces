@@ -25,12 +25,6 @@ export interface IPuddleMessage {
      */
     object : IPuddleObject;
     /**
-     * A list of remaining hanlders for this message type
-     * @remarks
-     * When null or empty `next` will be used
-     */
-    remainingHandlerNames? : string[];
-    /**
      * The next type of message, e.g for `AddObject` could be `AddedObject`
      * @remarks
      * When null, processing is considered complete

@@ -13,7 +13,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-import { IPuddleMessageHanlder } from "./IPuddleMessageHandler";
+import { IPuddleMessageHandler } from "./IPuddleMessageHandler";
 import { IPuddleMessageQueue } from "./IPuddleMessageQueue";
 import { IPuddleConfiguration } from "./IPuddleConfiguration";
 import { IPuddleDataStore } from "./IPuddleDataStore";
@@ -34,7 +34,7 @@ export interface IPuddleApp {
     /**
      * The message handlers that will be run when receiving messages
      */
-    messageHandlers : IPuddleMessageHanlder[];
+    messageHandlers : IPuddleMessageHandler[];
     /**
      * Gets the Puddle version
      *

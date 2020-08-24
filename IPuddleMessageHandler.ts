@@ -16,7 +16,7 @@
 import { IPuddleMessage } from "./IPuddleMessage";
 import { IPuddleApp } from "./IPuddleApp";
 
-export interface IPuddleMessageHanlder {
+export interface IPuddleMessageHandler {
     /**
      * The message type to handle
      */
